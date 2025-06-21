@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+.python-version
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Project specific
+config.ini
+config.yaml
+config.json
+*.config
+settings.json
+credentials.json
+secrets.json
+api_keys.json
+telegram_token.txt
+
+# Logs and databases
+*.log
+# *.sqlite
+*.db
+*.rdb
+logs/
+*.dat
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Local development
+*.local
+local_settings.py
+instance/
+
+# Redis
+dump.rdb
+*.rdb
+
+# Cache directories
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pylint.d/
+
+# Distribution / packaging
+.Python
+
+database.sqlite
